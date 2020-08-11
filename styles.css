@@ -1,0 +1,30 @@
+.part1{
+    background: linear-gradient(#ff2cdf,#0014ff);
+    z-index: 1;
+    text-align: center;
+    border: 3px solid black;
+    padding : 15px 0px 15p ;
+    width: 1500px;
+    height: 90px;
+    border-radius: 10px;
+    position: absolute;
+    top:5px;
+    left : 5px;
+}
+button{
+    width: 250px;
+    height: 150px; 
+    border-radius: 20px;
+    font-size: 200%;
+    padding :50px 50px 50px 50px; 
+}
+.part2{
+    position: absolute;
+    border:2px solid black;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    top: 230px;
+    right: 25px;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KABILAN_NEW_BLOGGER</title>
+        <link href="bitWiseCalc.css"  type=" text/css" rel="stylesheet">
+        <script type=" text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    </head>
+    <body>
+        <h1>BIT_WISE_CALCULATER</h1>
+        <div class="bitbody">
+        <div class="gt">
+            <label for="gate">GATE:</label>
+            <p class="gate and" type="text" id="and">| AND |</p>
+            <p class="gate or" type="text" id="or">OR |</p>
+            <p class="gate nand" type="text" id="nand">NAND |</p>
+            <p class="gate nor" type="text" id="nor">NOR |</p>
+            <p class="gate not" type="text" id="not">NOT |</p>
+        </div>
+        <hr>
+            <div class="bitA">
+                <h2>A:</h2>
+                <div class="cir act"  bit="0" bit-value="true"></div>
+                <div class="cir act"  bit="1" bit-value="true"></div>
+                <div class="cir"      bit="2" bit-value="false"></div>
+                <div class="cir act"  bit="3" bit-value="true"></div>
+                <div class="cir act"  bit="4" bit-value="true"></div>
+                <div class="cir act"  bit="5" bit-value="true"></div>
+                <div class="cir"      bit="6" bit-value="false"></div>
+                <div class="cir act"  bit="7" bit-value="true"></div>
+            </div>
+            <div class="bitB">
+                <h2>B:</h2>
+                <div class="cir act" bit="0" bit-value="true"></div>
+                <div class="cir"     bit="1" bit-value="false"></div>
+                <div class="cir act" bit="2" bit-value="true"></div>
+                <div class="cir act" bit="3" bit-value="true"></div>
+                <div class="cir act" bit="4" bit-value="true"></div>
+                <div class="cir"     bit="5" bit-value="false"></div>
+                <div class="cir act" bit="6" bit-value="true"></div>
+                <div class="cir"     bit="7" bit-value="false"></div>
+            </div>
+            <hr>
+            <div class="bitR">
+                <h2>RESULT:</h2>
+                <div class="cir" bit="0" bit-value="false"></div>
+                <div class="cir" bit="1" bit-value="false"></div>
+                <div class="cir" bit="2" bit-value="false"></div>
+                <div class="cir" bit="3" bit-value="false"></div>
+                <div class="cir" bit="4" bit-value="false"></div>
+                <div class="cir" bit="5" bit-value="false"></div>
+                <div class="cir" bit="6" bit-value="false"></div>
+                <div class="cir" bit="7" bit-value="false"></div>
+            </div>
+        
+        </div>
+        <script src="bitWiseCalc.js"></script>      
+    </body>
+</html>

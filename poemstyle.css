@@ -1,0 +1,43 @@
+.frame{
+    border: 3px solid gray;
+    width:1500 px;
+   
+}
+.pic{
+    display: inline-block;
+    border: 1px solid black;
+    margin-top:10px;
+    margin-left: 1px;
+    border-radius: 10px;
+    width: 490px;
+    height: 500px;
+    background: radial-gradient(#ffd4b3,#ff005c);
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin:0px 44px 20px 44px;
+    border-radius:10px;
+    
+}
+
+body{
+    background-attachment: fixed;
+    background-color: blue;
+}
+    
+
+p{
+    border: 2px solid black;
+    margin:2px; 
+    border-radius: 5px; 
+    padding-left:7pxpx;  
+}
+button{ 
+    font-weight: bold;
+    margin-left: 100px;
+    width: 100px;
+    border-radius: 5px; 
+}

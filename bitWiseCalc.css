@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    
+}
+.bitbody{
+    position:absolute;
+    left: 35%;
+    border:3px solid rgb(6, 41, 241);
+    border-radius: 30px;
+    width: 350px;
+    padding: 50px;
+    background-color:rgb(178, 232, 248) ;
+}
+button{
+    margin-left:20px;
+}
+.cir{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.act{
+    background-color: black;
+}
+.inact{
+    pointer-events: none;
+}
+p{
+    display: inline-block;
+    cursor: pointer;
+
+}
+.slt{
+    text-decoration: underline;
+}
+.cir{
+    display:inline-block;
+}
